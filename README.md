@@ -2,6 +2,12 @@
 
 > My own implementations of Monads
 
+## The Monadic Laws
+
+ * a monad is a wrapper around another type
+ * all monads must have a function to wrap themselves around other data types
+ * all monads must be able to feed the value or values that they wrap into another function, as long as that function eventually returns a monad
+
 ## Regular
 
 Implementation:
